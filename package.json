@@ -1,0 +1,26 @@
+{
+  "name": "nordstoneapis",
+  "version": "1.0.0",
+  "description": "calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souad988/nordstoneApis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souad988/nordstoneApis/issues"
+  },
+  "homepage": "https://github.com/souad988/nordstoneApis#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "16.9.1"
+  }
+}

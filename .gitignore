@@ -5,3 +5,5 @@ npm-debug.log
 yarn-error.log
 
 functions
+# Local Netlify folder
+.netlify

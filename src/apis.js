@@ -42,7 +42,7 @@ router.get("/multiply", (req, res) => {
 //   console.log("nordstone app is listening on port", port);
 // });
 
-app.use("/", router);
+app.use("/.netlify/functions/apis", router);
 module.exports.handler = serverless(app);
 
 // [[redirects]];

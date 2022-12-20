@@ -23,7 +23,7 @@ router.get("/subtract", (req, res) => {
   let value2 = parseInt(req.query.num2);
   let result = value1 - value2;
   res.send({
-    message: "addition operation triggered",
+    message: "subtraction operation triggered",
     result: result,
   });
 });
@@ -33,14 +33,10 @@ router.get("/multiply", (req, res) => {
   let value2 = parseInt(req.query.num2);
   let result = value1 * value2;
   res.send({
-    message: "addition operation triggered",
+    message: "multiply operation triggered",
     result: result,
   });
 });
-
-// router.listen(port, () => {
-//   console.log("nordstone app is listening on port", port);
-// });
 
 app.use("/.netlify/functions/apis", router);
 module.exports.handler = serverless(app);
